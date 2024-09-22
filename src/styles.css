@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  padding: 30px;
+  margin: 10px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.Resume {
+  border: 4px solid black;
+  min-height: 758px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.Header {
+  border: 1px solid #338078;
+  padding: 20px;
+  background-color: #338078;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.HeaderContent h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.HeaderContent h2 {
+  font-size: 20px;
+  margin: 5px 0 0;
+}
+
+.Content {
+  border: 1px solid black;
+  display: flex;
+  min-height: 600px;
+}
+
+.LeftColumn {
+  flex: 1;
+  background-color: lightgrey;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+  height: auto;
+  text-align: right;
+}
+
+.ContactItem {
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.ContactItem i {
+  font-size: 16px; 
+  color: #338078; 
+}
+
+a {
+  color: #338078;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.RightColumn {
+  flex: 2;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+  height: auto;
+  text-align: left; 
+}
+
+.ExperienceItem {
+  margin-bottom: 20px;
+}
+
+.ExperienceItem h4 {
+  margin: 0 0 5px 0;
+  color: #338078;
+}
+
+.ExperienceItem p {
+  margin: 5px 0;
+  font-weight: bold;
+  color: #555;
+}
+
+ul#exp-list {
+  list-style-type:disc;
+  padding-left: 20px; 
+}
+
+ul#exp-list li {
+  margin-bottom: 5px; 
+}
+
+.Section h3 {
+  font-size: 18px;
+  color: #338078;
+  border-bottom: 2px solid #338078;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.Section p,
+.Section ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type:none;
+  padding-left: 10px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+a {
+  color: #338078;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.ExperienceItem h4 {
+  color: #338078;
+  margin: 0 0 5px 0;
+}
+
+.ExperienceItem ul {
+  margin-top: 5px;
+  padding-left: 15px;
+}
+
+.ExperienceItem ul li {
+  margin-bottom: 5px;
+}
